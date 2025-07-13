@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.env
+*.sqlite3
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac / Linux / Windows
+.DS_Store
+Thumbs.db
