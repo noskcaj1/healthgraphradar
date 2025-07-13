@@ -31,6 +31,8 @@ def render_paginas():
     escolha = st.sidebar.radio("Menu", menu)
 
     if escolha == "📥 Cadastro":
-        import healthgraph_input_front
+        from healthgraph_input_front import form_input
+        form_input()
+
     elif escolha == "📊 Análise":
         render_dashboard()
